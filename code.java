@@ -63,7 +63,7 @@ public class TeacherArrangement {
 			for (int i = 0; i < t; i++) {
 				node.isFree[i] = true;
 			}
-
+                   System.out.println("Enter"+nol+" lecture period number");
 			for (int i = 0; i < nol; i++) {
 				int period = scn.nextInt();
 				node.isFree[period] = false;
